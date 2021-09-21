@@ -1,0 +1,111 @@
+
+@import url("icomoon/iconfonts.css");
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 1;
+}
+
+.jumbotron {
+  text-align: center;
+  background-color: transparent;
+  color: black;
+  border-radius: 0;
+  border-bottom: 0.25rem solid black;
+  padding: 1rem 1rem;
+  margin-bottom: 0.75rem;
+}
+
+header>label {
+  padding: 0 1rem 0 2rem;
+  font-weight: 600;
+}
+
+input[type="number"] {
+  text-align: center;
+  border: 0.125rem dotted gray;
+}
+
+input[type='number']::-webkit-inner-spin-button, 
+input[type='number']::-webkit-outer-spin-button { 
+    opacity: 1;
+}
+
+.task {
+  white-space: pre-wrap;
+}
+
+.time-block {
+  text-align: center;
+  border-radius: 1rem;
+}
+
+.row {
+  white-space: pre-wrap;
+  height: 5rem;
+  border-top-right-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  border-top: 1px solid white;
+}
+
+.hour {
+  background-color: #ffffff;
+  color: #000000;
+  border-top: 1px dashed #000000;
+}
+
+.saveBtn {
+  background-color: #17a2b8 !important;
+  border-left: 1px solid black;
+  border-top-right-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  color: white;
+  font-size: 2.6rem;
+  height: 100%;
+  padding: 0.55rem 0.5rem 0.5rem 0.5rem !important;
+}
+
+.saveBtn:hover,
+.saveBtn:focus{
+  background-color: #adf0ff !important;
+}
+
+.btn:not(:disabled):not(.disabled){
+  cursor: url("../img/saveHere_sml.png"), auto;
+}
+
+.cell-container{
+  padding: 0!important;
+}
+
+.table td{
+  border-top: 0.03rem dotted rgb(100, 100, 100);
+  border-bottom: 0.03rem dotted rgb(100, 100, 100);
+}
+
+.time-blocks{
+  text-align: right;
+  font-weight: 600;
+}
+
+textarea {
+  font-size: 0.85rem;
+  background: transparent;
+  border: none;
+  resize: none;
+  color: #000000;
+  border-left: 0.03rem solid blue;
+  padding: 1.23rem;
+  resize: none !important;
+}
+
+textarea:focus { 
+  outline: none ;
+  border-color: #faa340 ;
+  box-shadow: 0 0 0.65rem #faa340;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+line-height: 1.41;
+}

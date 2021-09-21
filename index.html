@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <link 
+      rel   = "stylesheet" 
+      href  = "./css/bootstrap/bootstrap.css" 
+       /> <!-- I've downloaded local file of bootstrap.css to see if I could sort 
+               out a significant lag issue when refreshing the page.  It has worked. -->
+    <link
+      rel   = "stylesheet"
+      href  = "https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
+    />
+    <link 
+      rel   = "stylesheet" 
+      href  = "./css/style.css" 
+    />
+    <link 
+      rel   = "stylesheet" 
+      href  = "./css/style-foundation.css" 
+  />
+    <title>Work Day Scheduler</title>
+  </head>
+
+  <!-- ===================================================================================== -->
+  
+  <body>
+    <header class="jumbotron jumbotron-fluid">
+      <div class="container"></div>
+        <h1 class="display-4">Work Day Scheduler</h1>
+        <p class="lead">A simple calendar app for scheduling your work day</p>
+        <p id="currentDay" class="lead"></p>
+
+        <label for="startDay">Start Day:</label>
+        <input type="number" id="startDay" name="startDay" min="3" max="11" > AM
+
+        <label for="endDay">End Day:</label>
+        <input type="number" id="endDay" name="endDay" min="1" max="11"> PM
+
+    </header>
+    
+    <main class="container">
+      
+      <!-- table generated in JavaScript file -->
+
+    </main>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
